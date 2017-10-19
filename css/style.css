@@ -1,0 +1,91 @@
+body {
+      background-color: #fff;
+      text-align:center;
+    }
+    body h3 {
+      margin-top: -5px;
+    }
+    /* Title element (<div> tag) */
+    #titlebar {
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: #bbb;
+      background-color: #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    /* Login element (<div> tag) */
+    #login {
+      margin-top: 10px;
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: #bbb;
+      background: #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+      visibility: show;
+    }
+    #logout {
+      margin-top: 10px;
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: #bbb;
+      background: #fff;
+      padding: 10px 10px 14px 10px;
+      margin-bottom: 10px;
+      margin-top: -101px;
+      visibility: hidden;
+    }
+    /* Main data element (<div> tag) */
+    #timedata {
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: #bbb;
+      background: #fff;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      visibility: hidden;
+    }
+    #timedataCover {
+      border: solid 2px;
+      border-radius: 6px;
+      border-color: #bbb;
+      background: #fff;
+      padding: 10px 20px 11px;
+      margin-top: -74px;
+      visibility: show;
+    }
+    #container {
+      margin:auto;
+      width: 900px;
+      background-color: #eee;
+      padding: 15px;
+      border: solid 3px;
+      border-color: #ccc;
+    }
+    /* Link title (<a> tag) */
+    .linkTitle {
+      color: #428bca;
+      text-decoration: none;
+      margin-right: 5px;
+}
+.linkTitle:hover {
+  text-decoration: none;
+}
+/* Link URL (<span> tag) */
+.linkUrl {
+  font-weight: normal;
+  font-size: 80%;
+}
+/* Link headline containing title & URL (<h4> tag) */
+.linkHeadline {
+  margin: 0;
+}
+/* Link author (<span> tag) */
+.linkAuthor {
+  font-weight: normal;
+  font-size: 80%;
+}
+.linkForm {
+  margin-bottom: 20px;
+}
