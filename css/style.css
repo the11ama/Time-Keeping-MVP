@@ -13,6 +13,7 @@ body {
       background-color: #ddd;
       padding: 10px;
       margin-bottom: 10px;
+      color: black;
     }
     /* Login element (<div> tag) */
     #login {
@@ -31,7 +32,7 @@ body {
       border-radius: 6px;
       border-color: #bbb;
       background: #fff;
-      padding: 10px 10px 14px 10px;
+      padding: 10px 10px 11px 10px;
       margin-bottom: 10px;
       margin-top: -101px;
       visibility: hidden;
@@ -43,8 +44,10 @@ body {
       border-color: #bbb;
       background: #fff;
       padding: 10px 20px;
+      margin-top: 0px;
       margin-bottom: 10px;
       visibility: hidden;
+      overflow: none;
     }
     #timedataCover {
       border: solid 2px;
@@ -52,7 +55,7 @@ body {
       border-color: #bbb;
       background: #fff;
       padding: 10px 20px 11px;
-      margin-top: -74px;
+      margin-top: -68px;
       visibility: show;
     }
     #container {
@@ -63,6 +66,31 @@ body {
       border: solid 3px;
       border-color: #ccc;
     }
+#iframe {
+  overflow: none;
+}
+.space {
+  margin: 5px;
+}
+#bottom {
+  margin-top: -20px;
+  visibility: hidden;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+  width: 100%;
+  margin-top: 15px;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+#punchOut {
+  margin-top: -24px;
+}
     /* Link title (<a> tag) */
     .linkTitle {
       color: #428bca;

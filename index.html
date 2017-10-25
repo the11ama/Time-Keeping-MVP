@@ -3,7 +3,8 @@
     <head>
       <meta charset="utf-8">
       <!-- Latest compiled and minified CSS -->
-      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css"> 
       
       <title>Time for pay!</title>
     </head>
@@ -24,25 +25,39 @@
               <label><b>Password</b></label>
               <input type="password" placeholder="Enter Password" id="psw" 
     required>
-              <button type="submit" name="in">Login</button>
+              <button id="in" type="submit">Login</button>
             </div>
           </form> 
         </div>
         <div id="logout">
           <h4>Log out when done.</h4>
-          <form>
-            <button type="submit" name="out">Log Out</button>
+          <form id="out">
+            <button type="submit">Log Out</button>
           </form>
         </div>
         <div id="timedata">
-          <h4>Sheet placeholder</h4>
+          <div class="space">
+            <form id="punchIn">
+              <button id="pIn" type="submit">Punch In</button>
+            </form>
+            <form id="punchOut">
+              <button id="pOut" type="submit">Punch Out</button>
+            </form>
+          </div>
+          <div class="space">
+            <div id="record">
+            </div>
+          </div>
         </div>
         <div id="timedataCover">
           <h4>Log in above to see your time sheet.</h4>
         </div>
+        <div id="bottom">
+          .
+        </div>
       </div>
       <!-- JavaScript code goes into this file -->
-      <script src="js/publink.js"></script>
+      <script src="js/scripts.js"></script>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script 
     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script
@@ -50,7 +65,6 @@
       <!-- Include all compiled plugins (below), or include individual files as 
     needed -->
       <script 
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
-    pt>
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
     </html>
